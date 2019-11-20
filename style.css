@@ -1,0 +1,165 @@
+body{
+    padding: 0px;
+    margin: 0px;
+   display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.header{
+   border: 2px solid;
+    flex-basis: 100%;
+    height: 300px;
+    background-color: black;
+}
+.titre{
+    color: white;
+    float: right;
+    font-size: 50px;
+    margin-right: 40px;
+    font-family: inherit;
+    box-shadow: 1px 10px 4px 5px lightskyblue;
+}
+span{
+    
+    font-size: 70px;
+    color:cyan;
+}
+.menu{
+   
+    height: 100px;
+    width: 100%;
+    float: right;
+    background-color: black;
+    margin-top: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu table tr td{
+   color:white;
+ padding-left: 75px;
+    padding-right:60px;
+    background-color: BLACK;
+    width: 30px;
+    font-size: 19px;
+    box-shadow: 1px 0px 0px 5px CYAN;
+    border-radius:22px 2px 2px 2px;
+    
+}
+.menu table tr td:hover{
+  background-color: cyan;
+    
+}
+           /******aside*******/
+.side{
+    flex-basis: 25%;
+    height: 500px;
+    background-color: lightblue;
+     margin-top: 31px;
+}
+.sid1{
+    width: 100%;
+    height: 330px;
+
+}
+.para1{
+    padding-left: 10px;
+    
+}
+            /******container*******/
+.content{
+  background-image: url(ImageAI/image3.jpg);
+    width: 100%;
+    height: 500px;
+    flex-basis: 50%;
+    height: 500px;
+    margin-top: 31px;
+  
+}
+.cont{
+     width: 100%;
+    height: 500px;
+   
+
+}
+
+#Par1{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 60px;
+    font-size: 15px;
+    font-family: fangsong;
+
+}
+h1{
+    color: white;
+}
+#M1{
+    list-style-type: georgian;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #08E6FE;
+    }
+hr{
+    width: 60%;
+    margin-left: -1%;
+    margin-top: -0,5%;
+    color: #677E52;}
+
+
+.T1 table{margin-left: -250px;position: absolute;left: 55%;}
+        td{text-align :center;font-size: 15px; font-family: fangsong;}
+        h3{text-align :center;}
+
+        .hr2{width: 75%;
+            margin-left: 10%;
+            margin-top: 1%;
+            color: #677E52;}
+
+        .hr3{width: 80%;
+            margin-left: 10%;
+            margin-top: 13%;
+            color: #677E52;
+        }
+
+
+                /******footer*******/
+.footer{
+    flex-basis: 100%;
+    background-color: black;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 30px;
+   
+}
+
+
+                 /******media*******/
+
+@media screen and (max-width: 750px){
+    .header{
+    flex-basis: 100%;
+}
+.side{
+    flex-basis: 50%;
+    order: 1;
+   
+}
+
+.content{
+    flex-basis: 100%;
+}
+
+
+.footer{
+    flex-basis: 100%;
+    order: 2;
+   
+}
+}
